@@ -5,7 +5,7 @@ var budgetController = (function() {
         this.id = id;
         this.description = description;
         this.value = value;
-        this.percentage = -1;
+        this.percentage = -1
     };
     
     
@@ -19,14 +19,14 @@ var budgetController = (function() {
     
     
     Expense.prototype.getPercentage = function() {
-        return this.percentage;
+        return this.percentage
     };
     
     
     var Income = function(id, description, value) {
-        this.id = id;
-        this.description = description;
-        this.value = value;
+        this.id = id
+        this.description = description
+        this.value = value
     };
     
     
@@ -76,7 +76,7 @@ var budgetController = (function() {
             }
             
             // Push it into our data structure
-            data.allItems[type].push(newItem);
+            data.allItems[type].push(newItem)
             
             // Return the new element
             return newItem;
@@ -92,13 +92,13 @@ var budgetController = (function() {
             //index = 3
             
             ids = data.allItems[type].map(function(current) {
-                return current.id;
+                return current.id
             });
 
-            index = ids.indexOf(id);
+            index = ids.indexOf(id)
 
             if (index !== -1) {
-                data.allItems[type].splice(index, 1);
+                data.allItems[type].splice(index, 1)
             }
             
         },
