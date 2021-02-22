@@ -13,7 +13,7 @@ var budgetController = (function() {
         if (totalIncome > 0) {
             this.percentage = Math.round((this.value / totalIncome) * 100);
         } else {
-            this.percentage = -1;
+            this.percentage = -1
         }
     };
     
