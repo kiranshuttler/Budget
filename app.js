@@ -92,7 +92,7 @@ var budgetController = (function() {
             //index = 3
             
             ids = data.allItems[type].map(function(current) {
-                return current.id;
+                return current.id
             });
 
             index = ids.indexOf(id);
