@@ -5,7 +5,7 @@ var budgetController = (function() {
         this.id = id;
         this.description = description;
         this.value = value;
-        this.percentage = -1;
+        this.percentage = -1
     };
     
     
