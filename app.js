@@ -76,7 +76,7 @@ var budgetController = (function() {
             }
             
             // Push it into our data structure
-            data.allItems[type].push(newItem);
+            data.allItems[type].push(newItem)
             
             // Return the new element
             return newItem;
