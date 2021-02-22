@@ -19,7 +19,7 @@ var budgetController = (function() {
     
     
     Expense.prototype.getPercentage = function() {
-        return this.percentage;
+        return this.percentage
     };
     
     
