@@ -95,7 +95,7 @@ var budgetController = (function() {
                 return current.id
             });
 
-            index = ids.indexOf(id);
+            index = ids.indexOf(id)
 
             if (index !== -1) {
                 data.allItems[type].splice(index, 1);
